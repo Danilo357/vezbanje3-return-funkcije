@@ -31,7 +31,7 @@ pozivaPrvuiDrugu();
 var proba = 456; // globalna- izvan funkcije-moze da se zove svuda
 
 function printanje() {
-  var proba = "hello"; // lokalna- unutar funkcije- moze da se zove samo u sklopu funkcije
+  var proba = "hello Danilo"; // lokalna- unutar funkcije- moze da se zove samo u sklopu funkcije
   document.write(proba); // ovaj poziv ima prednost zato sto je var lokalna unutar te funkcije, i pokazace samo hello
 }
 
